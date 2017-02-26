@@ -2,11 +2,11 @@
 Javascript library that contain some graph function
 
 
-Example usage :
+Example usage :\n
 
 var graph = require('graph-node');
 
-graph = new graph.Graph(); // creates a graph
+graph = new graph.Graph(); // creates a graph \n
 node1=graph.addNode("A"); // creates a node
 node2=graph.addNode("B"); // creates a node
 node3=graph.addNode("C"); // creates a node
