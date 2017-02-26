@@ -1,6 +1,14 @@
 # Graphjs
-Javascript library that contain some graph function
 
+Simple library for graph.
+
+Now only there DFS(Depth First Search) and BFS(Breadth First Search)
+
+# Installation
+
+npm install graph-node
+
+# Usage
 
 Example usage :
 
@@ -30,10 +38,6 @@ node3.addEdge(node5);
 
 node4.addEdge(node5);
 
-var dfsTraversedNodes= graphs.dfs(graph); // returns a dfs traversal of graph
+var dfsTraversed = graphs.dfs(graph); // returns a dfs traversal of graph
 
-var bfsTraversedNodes= graphs.bfs(graph);
-
-console.log(dfsTraversedNodes);
-
-console.log(bfsTraversedNodes);
+var bfsTraversed = graphs.bfs(graph); // returns a bfs traversal of graph
